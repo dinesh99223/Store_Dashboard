@@ -1,0 +1,314 @@
+{
+  "id": 1,
+  "userId": 1,
+  "userPreferenceId": 1,
+  "dashboardDetails": [
+    {
+      "id": 1,
+      "dashboardDetailsId": 1,
+      "storeId": "2001",
+      "dashboardEvents": [
+        {
+          "id": 1,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om1 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om1",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 2,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om3 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om3",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 3,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om4 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om4",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 4,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Battery percentage is below 5% for device D008",
+          "title": "Device is about to get switched off, take action! - D008",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 5,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Device - D010 is currently offline",
+          "title": "Device offline - D010",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 6,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Network signal quality is below average for connection - om2 and requires attention",
+          "title": "Network Signal is below average - om2",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 7,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Network signal quality is below average for connection - om5 and requires attention",
+          "title": "Network Signal is below average - om5",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 8,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D005",
+          "title": "Battery percentage is low for device - D005",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 9,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D007",
+          "title": "Battery percentage is low for device - D007",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 10,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D006",
+          "title": "Battery percentage low for device - D006",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 11,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Food Spoilage project assigned to Store Colleague staff is reaching the end date on 2024-09-20. Please take necessary action!",
+          "title": "Project on Food Spoilage is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 12,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Inventory Audit project assigned to Store manager is reaching the end date on 2024-09-19. Please take necessary action!",
+          "title": "Project Inventory Audit is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 13,
+          "dashboardInfoId": 1,
+          "storeId": "2001",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Promotions project assigned to Store colleague is reaching the end date on 2024-09-19. Please take necessary action!",
+          "title": "Project on Promotions is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        }
+      ],
+      "createdDate": "2024-09-13T18:30:00.000+00:00",
+      "updatedBy": "demouser"
+    },
+    {
+      "id": 2,
+      "dashboardDetailsId": 1,
+      "storeId": "2002",
+      "dashboardEvents": [
+        {
+          "id": 14,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om1 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om2",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 15,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om3 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om2",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 16,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Network signal quality is poor for connection - om4 and needs immediate attention",
+          "title": "Immediate attention required: Network Signal Extremely Low - om2",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 17,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Battery percentage is below 5% for device D008",
+          "title": "Device is about to get switched off, take action! - D002",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 18,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Critical",
+          "eventDescription": "Critical Alert: Device - D010 is currently offline",
+          "title": "Device offline - D010",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 19,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Network signal quality is below average for connection - om2 and requires attention",
+          "title": "Network Signal is below average - om2",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 20,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Network signal quality is below average for connection - om5 and requires attention",
+          "title": "Network Signal is below average - om5",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 21,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D005",
+          "title": "Battery percentage is low for device - D005",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 22,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D007",
+          "title": "Battery percentage is low for device - D007",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 23,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Battery percentage is below 30% for device D006",
+          "title": "Battery percentage low for device - D006",
+          "type": "STORE_INFRA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 24,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Food Spoilage project assigned to Store Colleague staff is reaching the end date on 2024-09-20. Please take necessary action!",
+          "title": "Project on Food Spoilage is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 25,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Inventory Audit project assigned to Store manager is reaching the end date on 2024-09-19. Please take necessary action!",
+          "title": "Project Inventory Audit is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        },
+        {
+          "id": 26,
+          "dashboardInfoId": 1,
+          "storeId": "2002",
+          "status": "Moderate",
+          "eventDescription": "Moderate Alert: Promotions project assigned to Store colleague is reaching the end date on 2024-09-19. Please take necessary action!",
+          "title": "Project on Promotions is nearing end date",
+          "type": "STORE_DATA",
+          "createdDate": "2024-09-13T18:30:00.000+00:00",
+          "updatedBy": "demouser"
+        }
+      ],
+      "createdDate": "2017-03-13T18:30:00.000+00:00",
+      "updatedBy": "demouser"
+    }
+  ],
+  "createdDate": "2017-03-13T18:30:00.000+00:00",
+  "updatedDate": "2017-03-13T18:30:00.000+00:00",
+  "updatedBy": "demouser"
+}

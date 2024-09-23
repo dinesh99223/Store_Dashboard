@@ -1,0 +1,8 @@
+.popout-row {
+  transition: transform 0.2s ease-in-out; /* Adjust the transition duration as needed */
+}
+
+.popout-row:hover {
+  transform: scale(1.02); /* Adjust scale as necessary */
+  z-index: 1; /* Bring hovered row above others */
+}

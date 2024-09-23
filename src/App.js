@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+import Navbar from "./Components/Navbar";
+// import Dashboard from "./Components/Dashboard";
+import { DashboardProvider } from "./Context/Context";
+import DarkModeTransition from "./Components/DarkModeTransition";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const [animationComplete, setAnimationComplete] = useState(false);
+
+  // Toggle theme handler with animation
+  const handleThemeChange = () => {
+    if (!animationComplete) return;
+
+    setAnimationComplete(false);
+    setDarkMode((prevMode) => !prevMode);
+  };
+
+  const theme = createTheme({
+    palette: {
+      mode: darkMode ? "dark" : "light",
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <DashboardProvider>
+        {!animationComplete && (
+          <DarkModeTransition
+            darkMode={darkMode}
+            onAnimationEnd={() => setAnimationComplete(true)}
+          />
+        )}
+        <Navbar darkMode={darkMode} handleThemeChange={handleThemeChange} />
+        {/* <Dashboard /> */}
+      </DashboardProvider>
+    </ThemeProvider>
   );
 }
 
