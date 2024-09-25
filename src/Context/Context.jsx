@@ -11,16 +11,27 @@ export const DashboardProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // const response = await fetch("/MockResponse_01.json"); // Fetch from the public folder
-        const response = await fetch("http://localhost:8080/api/getDashboardDetails/1"); // Fetch from the public folder
+        console.log("Fetching Data.......");
+        const response = await fetch(
+          "http://localhost:8080/api/getDashboardDetails/1"
+        );
         const data = await response.json();
+        console.log("Data Fetched: ", data);
         setDashboardData(data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
 
-    fetchData();
+    // Fetch data every 10 seconds
+    fetchData(); // Initial fetch
+    const intervalId = setInterval(fetchData, 10000);
+
+    // Clean up interval on unmount
+    return () => {
+      console.log("Cleaning up interval......");
+      clearInterval(intervalId);
+    };
   }, []);
 
   return (
